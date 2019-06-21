@@ -9,8 +9,14 @@
         <ul>
           <li>Opcja</li>
           <li>
-            <a href="logowanie.php">Zaloguj się
-            </a> </li>
+            <!-- target okresla ktore linki mają taki kolor, przy divie sie rozjezdzały troche -->
+              <a href="logowanie.php" target="_blank">Zaloguj się
+              </a>
+           </li>
+           <li>
+               <a href="rejestracja.html" target="_blank">Zarejestruj się
+               </a>
+            </li>
         </ul>
       </nav>
       <div id="container">
