@@ -1,6 +1,11 @@
+* {
+  box-sizing: border-box;
+}
 body
 {
 font-family: verdana;
+padding: 10px;
+background: #f1f1f1;
 }
 
 nav, header, footer, aside, section, article, main
@@ -99,7 +104,7 @@ a[target=_blank]:hover, a[target=_blank]:active {
 
 /* okienka do logowania  */
 
-input[type=text], select {
+.logowanie input[type=text], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -109,7 +114,7 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-#logowanie: input[type=submit] { 
+.logowanie input[type=submit] {
   width: 100%;
   background-color: #4CAF50;
   color: white;
@@ -120,11 +125,11 @@ input[type=text], select {
   cursor: pointer;
 }
 
-#logowanie: input[type=submit]:hover {
+.logowanie input[type=submit]:hover {
   background-color: #45a049;
 }
 
-#logowanie: div {
+.logowanie div {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;

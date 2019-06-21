@@ -7,7 +7,10 @@
    <body>
       <nav>
         <ul>
-          <li>Opcja</li>
+          <li>
+            <a href="#" target="_blank">Główna
+            </a>
+          </li>
           <li>
             <!-- target okresla ktore linki mają taki kolor, przy divie sie rozjezdzały troche -->
               <a href="logowanie.php" target="_blank">Zaloguj się
